@@ -1,1 +1,40 @@
-<RCC/>
+<RCC>
+    <qresource prefix="/">
+        <file>images/myIcon.ico</file>
+        <file>images/background.png</file>
+        <file>images/btn_next0.png</file>
+        <file>images/btn_next1.png</file>
+        <file>images/btn_openFile0.png</file>
+        <file>images/btn_openFile1.png</file>
+        <file>images/btn_plause0.png</file>
+        <file>images/btn_plause1.png</file>
+        <file>images/btn_play0.png</file>
+        <file>images/btn_play1.png</file>
+        <file>images/btn_pre0.png</file>
+        <file>images/btn_pre1.png</file>
+        <file>images/btn_sound0.png</file>
+        <file>images/btn_sound1.png</file>
+        <file>images/btn_stop0.png</file>
+        <file>images/btn_stop1.png</file>
+        <file>images/btn_soundkill0.png</file>
+        <file>images/btn_soundkill1.png</file>
+        <file>images/loop.PNG</file>
+        <file>images/random.PNG</file>
+        <file>images/seqtional.PNG</file>
+        <file>images/single.PNG</file>
+        <file>images/loop1.png</file>
+        <file>images/random1.png</file>
+        <file>images/seqtional1.png</file>
+        <file>images/single1.png</file>
+        <file>images/close.png</file>
+        <file>images/main.png</file>
+        <file>images/min.png</file>
+        <file>images/mintray.png</file>
+        <file>images/putup.png</file>
+        <file>images/showfront.png</file>
+        <file>images/spin.png</file>
+        <file>images/toolstyle.png</file>
+        <file>images/heart.png</file>
+        <file>images/playList.png</file>
+    </qresource>
+</RCC>

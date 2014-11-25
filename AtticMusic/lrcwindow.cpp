@@ -21,7 +21,7 @@ lrcWindow::lrcWindow(QWidget *parent):
     timer = new QTimer(this);
     connect(timer,SIGNAL(timeout()),this,SLOT(timeout()));
 
-    this->move(400,700);
+    this->move(400,600);
 
     lrcWidth = 0;
 
@@ -60,7 +60,7 @@ void lrcWindow::contextMenuEvent(QContextMenuEvent *ev)
 void lrcWindow::paintEvent(QPaintEvent *)
 {
     QPainter painter(this);
-   // painter.setRenderHints(QPainter::Antialiasing | QPainter::TextAntialiasing);
+    painter.setRenderHints(QPainter::Antialiasing | QPainter::TextAntialiasing);
     //使用该行代码可以实现反锯齿，使歌词显示更漂亮，但是会明显增加CPU占用率
     QFont font(tr("Times New Roman"),30,QFont::Bold);
     painter.setFont(font);
@@ -78,7 +78,7 @@ void lrcWindow::paintEvent(QPaintEvent *)
 
     length = textPath.currentPosition().x();
 
-    painter.setPen(Qt::yellow);
+    painter.setPen(Qt::red);
     painter.drawText(0,14,lrcWidth,50,Qt::AlignLeft,text());
 
 }

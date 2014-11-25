@@ -6,16 +6,28 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>300</width>
-    <height>320</height>
+    <width>298</width>
+    <height>388</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>播放列表</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
-   <property name="margin">
-    <number>1</number>
+  <layout class="QGridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="horizontalSpacing">
+    <number>6</number>
    </property>
    <item row="0" column="0">
     <widget class="QTableWidget" name="tableWidget">
@@ -78,7 +90,9 @@
       <bool>true</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">&lt;span style=&quot;font-size:14px;&quot;&gt; pal = palette();  
+ pal.setColor(QPalette::background, QColor(0x00,0xff,0x00,0x00));  
+ setPalette(pal);&lt;/span&gt;  </string>
      </property>
      <property name="horizontalScrollBarPolicy">
       <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -97,12 +111,12 @@
      </property>
      <column>
       <property name="text">
-       <string>标题</string>
+       <string>歌曲</string>
       </property>
      </column>
      <column>
       <property name="text">
-       <string>艺术家</string>
+       <string>路径</string>
       </property>
      </column>
     </widget>

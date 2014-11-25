@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\lrcwindow.o
+./release\widget.o
+./release\musiclist.o
+./release\qrc_Resource.o
+./release\moc_mainwindow.o
+./release\moc_lrcwindow.o
+./release\moc_widget.o
+./release\moc_musiclist.o
+);

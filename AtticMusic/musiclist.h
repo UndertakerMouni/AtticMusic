@@ -18,7 +18,10 @@ public:
     void listReadSettings();
     void listWriteSettings();
 
-
+    void readSongList(QString fileName);
+    void writeSongList(QString fileName,QString strSongPath);
+    void readPlayList(QString fileName);
+    void writePlayList(QString fileName);
 
 protected:
     void changeEvent(QEvent *e);
